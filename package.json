@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/stefanmeschke/fonterrific/issues"
   },
-  "homepage": "https://github.com/stefanmeschke/fonterrific#readme"
+  "homepage": "https://github.com/stefanmeschke/fonterrific#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-webfont": "^1.6.0"
+  }
 }

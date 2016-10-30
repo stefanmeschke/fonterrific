@@ -1,0 +1,24 @@
+<% if (fontfaceStyles) { %>
+@font-face {
+    font-family: "<%= fontBaseName %>";
+    <% if (fontSrc1) { %>src: <%= fontSrc1 %>;<% }%>
+    <% if (fontSrc2) { %>src: <%= fontSrc2 %>;<% }%>
+    font-weight: normal;
+    font-style: normal;
+}
+<% } %>
+
+.<%= baseClass %> {
+    display: inline-block;
+    font-size: inherit;
+    font: normal normal normal "<%= fontBaseName %>";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+<% if (iconsStyles) { %>
+    <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+.<%= classPrefix %><%= glyphs[glyphIdx] %>:before { content: "\<%= codepoints[glyphIdx] %>"; }
+    <% } %>
+<% } %>
