@@ -1,10 +1,10 @@
 
 @font-face {
     font-family: "fonterrific";
-    src: url("font/fonterrific.eot?d8b2ce96b46cf383ad96d17665e43db8");
+    src: url("font/fonterrific.eot?ae5f9e53e3c84cf086ac450019b544ad");
     src: url("font/fonterrific.eot?#iefix") format("embedded-opentype"),
-		url("font/fonterrific.woff?d8b2ce96b46cf383ad96d17665e43db8") format("woff"),
-		url("font/fonterrific.ttf?d8b2ce96b46cf383ad96d17665e43db8") format("truetype");
+		url("font/fonterrific.woff?ae5f9e53e3c84cf086ac450019b544ad") format("woff"),
+		url("font/fonterrific.ttf?ae5f9e53e3c84cf086ac450019b544ad") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -26,8 +26,10 @@
 
 
     
-.ft-ghost-outline:before { content: "\f101"; }
+.ft-brand-einplatinencomputer:before { content: "\f101"; }
     
-.ft-ghost:before { content: "\f102"; }
+.ft-ghost-outline:before { content: "\f102"; }
+    
+.ft-ghost:before { content: "\f103"; }
     
 
