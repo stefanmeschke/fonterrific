@@ -1,10 +1,10 @@
 
 @font-face {
     font-family: "fonterrific";
-    src: url("font/fonterrific.eot?b2f7d941f49e315fc4b77d6456aaf42e");
+    src: url("font/fonterrific.eot?d8b2ce96b46cf383ad96d17665e43db8");
     src: url("font/fonterrific.eot?#iefix") format("embedded-opentype"),
-		url("font/fonterrific.woff?b2f7d941f49e315fc4b77d6456aaf42e") format("woff"),
-		url("font/fonterrific.ttf?b2f7d941f49e315fc4b77d6456aaf42e") format("truetype");
+		url("font/fonterrific.woff?d8b2ce96b46cf383ad96d17665e43db8") format("woff"),
+		url("font/fonterrific.ttf?d8b2ce96b46cf383ad96d17665e43db8") format("truetype");
     font-weight: normal;
     font-style: normal;
 }

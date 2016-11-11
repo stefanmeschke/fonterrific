@@ -7,14 +7,15 @@ module.exports = function(grunt) {
         webfont: {
             icons: {
                 src: 'icons/svg/*.svg',
-                dest: 'build/font',
-                destCss: 'build/',
+                dest: 'docs/font',
+                destCss: 'docs/',
                 options: {
                     fontBaseName: fontName,
                     fontFilename: fontName,
                     normalize: true,
                     template: 'templates/fonterrific.css',
-                    htmlDemoTemplate: 'templates/fonterrific.html',
+                    htmlDemoTemplate: 'templates/index.html',
+                    htmlDemoFilename: 'index',
                     templateOptions: {
                         fontBaseName: fontName,
                         baseClass: fontClass,
