@@ -12,6 +12,7 @@ module.exports = function(grunt) {
                 options: {
                     fontBaseName: fontName,
                     fontFilename: fontName,
+                    normalize: true,
                     template: 'templates/fonterrific.css',
                     htmlDemoTemplate: 'templates/fonterrific.html',
                     templateOptions: {

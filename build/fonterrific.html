@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <link rel="stylesheet" href="<%= fontBaseName %>.css">
+    <link rel="stylesheet" href="fonterrific.css">
 
-    <title><%= fontBaseName %> - a growing icon font</title>
+    <title>fonterrific - a growing icon font</title>
 </head>
 <body>
 
   <nav class="navbar navbar-light bg-faded">
-    <a class="navbar-brand" href="#"><%= fontBaseName %></a>
+    <a class="navbar-brand" href="#">fonterrific</a>
     <ul class="nav navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="#">Icons <span class="sr-only">(current)</span></a>
@@ -35,11 +35,15 @@
     </div>
   </div>
   <div class="row">
-    <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+    
     <div class="col-xs-6 col-sm-4 col-md-3">
-      <div data-name="<%= glyph %>"><i class="<%= baseClass %> <%= classPrefix %><%= glyph %>"></i> <%= classPrefix %><%= glyph %></div>
+      <div data-name="ghost-outline"><i class="ft ft-ghost-outline"></i> ft-ghost-outline</div>
     </div>
-    <% } %>
+    
+    <div class="col-xs-6 col-sm-4 col-md-3">
+      <div data-name="ghost"><i class="ft ft-ghost"></i> ft-ghost</div>
+    </div>
+    
   </div>
 </div>
 

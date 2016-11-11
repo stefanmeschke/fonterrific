@@ -10,11 +10,16 @@
 
 .<%= baseClass %> {
     display: inline-block;
+    font: normal normal normal 14px/1 <%= fontBaseName %>;
     font-size: inherit;
-    font: normal normal normal "<%= fontBaseName %>";
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.<%= baseClass %>-fw {
+  width: 1.3em;
+  text-align: center;
 }
 
 <% if (iconsStyles) { %>

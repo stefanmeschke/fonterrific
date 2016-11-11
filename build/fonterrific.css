@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: "fonterrific";
+    src: url("font/fonterrific.eot?b2f7d941f49e315fc4b77d6456aaf42e");
+    src: url("font/fonterrific.eot?#iefix") format("embedded-opentype"),
+		url("font/fonterrific.woff?b2f7d941f49e315fc4b77d6456aaf42e") format("woff"),
+		url("font/fonterrific.ttf?b2f7d941f49e315fc4b77d6456aaf42e") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.ft {
+    display: inline-block;
+    font: normal normal normal 14px/1 fonterrific;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ft-fw {
+  width: 1.3em;
+  text-align: center;
+}
+
+
+    
+.ft-ghost-outline:before { content: "\f101"; }
+    
+.ft-ghost:before { content: "\f102"; }
+    
+
